@@ -11,7 +11,6 @@ def get_tx_count(address: str) -> int:
         'authority': 'layerzeroscan.com',
         'accept': '*/*',
         'accept-language': 'ru,en;q=0.9',
-        'baggage': 'sentry-environment=vercel-production,sentry-release=668d8c792551613326bcb0546d945d7fe52e2e23,sentry-public_key=7ea9fec73d6d676df2ec73f61f6d88f0,sentry-trace_id=dc13e7c6afea4d97b1078769026db904',
         'content-type': 'application/json',
         'referer': f'https://layerzeroscan.com/address/{address}',
         'sec-ch-ua': '"Chromium";v="118", "YaBrowser";v="23", "Not=A?Brand";v="99"',
@@ -20,7 +19,6 @@ def get_tx_count(address: str) -> int:
         'sec-fetch-dest': 'empty',
         'sec-fetch-mode': 'cors',
         'sec-fetch-site': 'same-origin',
-        'sentry-trace': 'dc13e7c6afea4d97b1078769026db904-85df8626f1ff8c3b-1',
         'user-agent': ua.random,
         'x-kl-kis-ajax-request': 'Ajax_Request',
     }
